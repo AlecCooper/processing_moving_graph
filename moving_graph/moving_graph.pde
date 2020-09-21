@@ -2,12 +2,12 @@ import java.util.Random;
 import java.util.Arrays;
 
 float res = 600; // The screen resolution
-int N = 7; // Number of points
+int N = 20; // Number of points
 float vel_multi = 3.0;
 Boolean[][] adj = new Boolean[N][N]; // Adjacency matrix
 float[][] pos = new float[N][2]; // Position matrix
 float[][] vel = new float[N][2]; // Velocity matrix
-float prob = 0.5; //Probability of a connection between points
+float prob = 0.6; //Probability of a connection between points
 Random rand = new Random(); // instance the random class
 
 // We represent points as a 4 vector, with the first 2 indices being position
