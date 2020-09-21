@@ -98,11 +98,6 @@ void draw(){
       vel[i][1] = vel[i][1] * -1;
     }else if(pos[i][1] < 0){
       vel[i][1] = vel[i][1] * -1;
-    }
-
-    
-    
+    } 
   }
-
-  
 }
